@@ -150,7 +150,7 @@ DEPENDENCIES
   pg
   pry-doc
   pry-rails
-  rails (~> 3.2.13)
+  rails (~> 3.2.17)
   rspec-rails
   ruby-prof
   sass-rails (~> 3.2.3)
