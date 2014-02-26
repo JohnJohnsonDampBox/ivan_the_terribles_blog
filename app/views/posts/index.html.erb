@@ -1,9 +1,14 @@
 <h1>Ivan the Terrible's Blog</h1>
 
-<section class="blog">
-  <%= render @posts %>
-</section>
-
+<% cache do %>
+<div class='apple_pagination'>
+  <div class = 'page_info'
+    <section class="blog">
+      <%= render @posts %>
+    </section>
+  </div>
+</div>
+<% end %>
 <br />
 
 <%= link_to 'New Post', new_post_path %>

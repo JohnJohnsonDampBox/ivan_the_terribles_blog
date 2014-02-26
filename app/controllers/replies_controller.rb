@@ -1,8 +1,9 @@
 class RepliesController < ApplicationController
+  caches_action :index, :layout => false
   # GET /replies
   # GET /replies.json
   def index
-    @replies = Reply.all
+    @replies = Reply.joins(:comment).select('replies.*, comments.name as comment_name')
 
     respond_to do |format|
       format.html # index.html.erb
