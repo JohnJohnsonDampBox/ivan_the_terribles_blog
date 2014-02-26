@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
   # GET /comments
   # GET /comments.json
   def index
-    @comments = Comment.joins(:post).select('comments.*, posts.name as post_name')
+    @comments = Comment.includes(:replies).select('comments.*, posts.name as post_name')
 
     respond_to do |format|
       format.html # index.html.erb
