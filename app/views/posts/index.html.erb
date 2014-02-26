@@ -2,6 +2,7 @@
 
 <% cache do %>
 <div class='apple_pagination'>
+  <%= will_paginate @posts %>
   <div class = 'page_info'
     <section class="blog">
       <%= render @posts %>

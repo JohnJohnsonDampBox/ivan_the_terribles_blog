@@ -1,2 +1,3 @@
 ShitFuckBlog
 
+I've taken Ivan's Terrible Blog and cached the index actions. Also the comments and replies are using eager loading join
