@@ -1,3 +1,8 @@
 ShitFuckBlog
 
-I've taken Ivan's Terrible Blog and cached the index actions. Also the comments and replies are using eager loading join
+I've taken Ivan's Terrible Blog and cached the index actions. Also the comments and replies are using eager loading.
+
+Load Impact Result: (http://loadimpact.com/load-test/shitfuckblog.herokuapp.com-e2c7bee995bf8088490f28cd58e8582e)
+
+
+
